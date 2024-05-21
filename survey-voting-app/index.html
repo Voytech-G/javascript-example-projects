@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Survey Voting System App</h1>
+    <form action="" class="vote-form">
+      <label
+        >Enter user name: <input type="text" class="username" required
+      /></label>
+      <label
+        >Enter user id:
+        <input
+          type="text"
+          class="userid"
+          required
+          required
+          maxlength="8"
+          minlength="8"
+      /></label>
+      <select class="vote-select">
+        <option value="Option 1">Yes</option>
+        <option value="Option 2">No</option>
+        <option value="Option 3">Don't know</option>
+      </select>
+      <button class="vote-submit" type="submit">Vote</button>
+    </form>
+    <div class="vote-results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
